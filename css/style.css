@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Open+Sans&family=Playfair+Display:wght@600&family=Tiro+Gurmukhi&display=swap');
 
 #header {
-    padding-bottom: 8vw;
+    padding-bottom: 5vw;
 }
 
 #main-a-lorem-p {
-    font-size: calc(0.5vh + 1vw);
+    font-size: calc(0.8vh + 1vw);
     font-family: 'Open Sans', serif;
     line-height: 2vw;
+    padding-top: 2vw;
 }
 
 
 #main-a {
     background-color: rgb(21, 21, 21);
-    padding-bottom: 3vw;
+    padding-bottom: 2vw;
 }
 
 #main-a-memory-p {
-    padding-top: 2vw;
-    font-size: 3vw;
+    padding-top: 3vw;
+    font-size: 4vw;
     font-family: 'Playfair Display', serif;
     line-height: 3vw;
 
@@ -60,12 +61,12 @@
 
 @media screen and (max-width: 576px) {
     #header-reserve-button {
-        font-size: 1.3vw;
+        font-size: 3vw;
         display: inline-block;
     }
 
     #main-a-trvlogs-button {
-        font-size: 1.3vw;
+        font-size: 3vw;
         display: inline-block;
     }
 }
