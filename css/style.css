@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Open+Sans&family=Playfair+Display:wght@600&family=Tiro+Gurmukhi&display=swap');
+
+#header {
+    padding-bottom: 8vw;
+}
+
+#main-a-lorem-p {
+    font-size: 1vw;
+    font-family: 'Open Sans', serif;
+    line-height: 1.5vw;
+}
+
+
+#main-a {
+    background-color: rgb(21, 21, 21);
+    padding-bottom: 3vw;
+}
+
+#main-a-memory-p {
+    padding-top: 2vw;
+    font-size: 3vw;
+    font-family: 'Playfair Display', serif;
+    line-height: 3vw;
+
+}
+
+#header-side-design {
+    position: absolute;
+    opacity: 1;
+    right: 0;
+    bottom: 0;
+    height: 35vw;
+    width: 6vw;
+    z-index: 0;
+}
+
+
+#header-main-travel-p {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 4vw;
+    line-height: 4vw;
+    letter-spacing: 0.5vw;
+}
+
+#header-main-lorem-p {
+    font-size: 1vw;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-navbar nav div ul li a {
+    font-family: 'Lato', sans-serif;
+}
+
+#header-navbar nav div ul li a:hover {
+    color: black !important;
+    font-weight: bold;
+    transition: all 0.1s linear;
+    text-shadow: 0 0 0px #000000;
+}
+
+@media screen and (max-width: 576px) {
+    #header-reserve-button {
+        font-size: 1.3vw;
+        display: inline-block;
+    }
+
+    #main-a-trvlogs-button {
+        font-size: 1.3vw;
+        display: inline-block;
+    }
+}
