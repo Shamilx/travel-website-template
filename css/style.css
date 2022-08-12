@@ -5,9 +5,9 @@
 }
 
 #main-a-lorem-p {
-    font-size: 1vw;
+    font-size: calc(0.5vh + 1vw);
     font-family: 'Open Sans', serif;
-    line-height: 1.5vw;
+    line-height: 2vw;
 }
 
 
@@ -43,7 +43,7 @@
 }
 
 #header-main-lorem-p {
-    font-size: 1vw;
+    font-size: 2vw;
     font-family: 'Lato', sans-serif;
 }
 
