@@ -9,6 +9,36 @@ body {
     background-size: cover;
 }
 
+#main-e {
+    background-color: rgb(21, 21, 21);
+    margin-left: 0 !important;
+    margin-top: 3vw;
+}
+
+#main-e-scribble {
+    position: absolute;
+    left: 0;
+    width: 25vw;
+}
+
+#main-e-choose {
+    font-size: 3vw;
+    font-family: 'Playfair Display', serif;
+}
+
+#main-d {
+    margin-top: 20vw;
+}
+
+#main-d-arrow {
+    width: 8vw;
+    margin-top: 3vw;
+}
+
+#main-d-paragraph {
+    font-size: calc(1.5vw + 1px);
+}
+
 #main-c {
     margin-top: 10vw;
 }
@@ -19,6 +49,11 @@ body {
     left: 0;
     width: 30vw;
     z-index: 0;
+}
+
+#main-a-trvlogs-button:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 #main-c-lorem {
@@ -141,6 +176,22 @@ body {
     font-size: calc(0.5vh + 0.5vw) !important;
     font-family: 'Tiro Gurmukhi', serif;
 }
+
+.main-d-paragraphs {
+    font-size: 1vw;
+}
+
+.main-e-paragraphs-header {
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+.main-e-paragraphs-footer {
+    font-size: 1vw;
+    font-family: 'Open Sans', serif;
+}
+
 
 
 @media screen and (max-width: 576px) {
