@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Noto+Serif+HK:wght@600&family=Open+Sans&family=Playfair+Display:wght@600&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Noto+Serif+HK:wght@600&family=Open+Sans&family=Playfair+Display:ital,wght@0,600;0,800;1,800&family=Tiro+Gurmukhi&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -7,6 +7,48 @@ html {
 body {
     background: url("../img/body-background.png");
     background-size: cover;
+}
+
+#main-c {
+    margin-top: 10vw;
+}
+
+#main-c-scribble {
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    width: 30vw;
+    z-index: 0;
+}
+
+#main-c-lorem {
+    font-size: calc(1vh + 0.5vw);
+}
+
+#main-c-header-p {
+    font-size: calc(3vw + 1vh);
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+#main-c-plane {
+    width: calc(1em + 2vw);
+}
+
+#main-b-left-design {
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    width: 2vw;
+    z-index: 0;
+}
+
+#main-b-right-design {
+    position: absolute;
+    opacity: 1;
+    right: 0;
+    width: 4vw;
+    z-index: 0;
 }
 
 #main-a-left-side-design {
@@ -22,7 +64,6 @@ body {
     opacity: 1;
     right: 0;
     width: 30vw;
-
     z-index: 0;
 }
 
@@ -92,12 +133,12 @@ body {
 }
 
 .main-b-header-paragraphs {
-    font-size: 2vw !important;
+    font-size: calc(1vh + 1vw) !important;
     font-family: 'Noto Serif HK', serif;
 }
 
 .main-b-footer-paragraphs {
-    font-size: 1vw !important;
+    font-size: calc(0.5vh + 0.5vw) !important;
     font-family: 'Tiro Gurmukhi', serif;
 }
 
