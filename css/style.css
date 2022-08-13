@@ -1,7 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Open+Sans&family=Playfair+Display:wght@600&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mouse+Memoirs&family=Noto+Serif+HK:wght@600&family=Open+Sans&family=Playfair+Display:wght@600&family=Tiro+Gurmukhi&display=swap');
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background: url("../img/body-background.png");
+    background-size: cover;
+}
+
+#main-a-left-side-design {
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    width: 30vw;
+    z-index: 0;
+}
+
+#main-a-right-side-design {
+    position: absolute;
+    opacity: 1;
+    right: 0;
+    width: 30vw;
+
+    z-index: 0;
 }
 
 #header {
@@ -47,6 +69,12 @@ html {
     letter-spacing: 0.5vw;
 }
 
+#header-contactUs-btn {
+    font-weight: 800;
+    border: 2px solid black;
+}
+
+
 #header-main-lorem-p {
     font-size: 2vw;
     font-family: 'Lato', sans-serif;
@@ -62,6 +90,17 @@ html {
     transition: all 0.1s linear;
     text-shadow: 0 0 0px #000000;
 }
+
+.main-b-header-paragraphs {
+    font-size: 2vw !important;
+    font-family: 'Noto Serif HK', serif;
+}
+
+.main-b-footer-paragraphs {
+    font-size: 1vw !important;
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
 
 @media screen and (max-width: 576px) {
     #header-reserve-button {
