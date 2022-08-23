@@ -9,6 +9,11 @@ body {
     background-size: cover;
 }
 
+#main-f {
+    margin-top: 10vw;
+}
+
+
 #main-e {
     background-color: rgb(21, 21, 21);
     margin-left: 0 !important;
@@ -192,7 +197,35 @@ body {
     font-family: 'Open Sans', serif;
 }
 
+/**/
+#main-f-lorem {
+    font-size: calc(1vh + 3vw);
+    font-family: 'Tiro Gurmukhi', serif;
+    width: 60vw;
 
+}
+
+#main-f-col-1-last {
+    border-bottom: calc(0.1vh + 0.1vw) solid black;
+}
+
+#main-f div div {
+    width: 60vw;
+    padding: calc(0.5vh + 1.5vw) 0;
+    border-top: calc(0.1vh + 0.1vw) solid black;
+}
+
+#main-f div div p {
+    font-size: calc(0.5vh + 0.5vw);
+
+}
+
+#main-f div div p img {
+    width: calc(0.5vh + 0.5vw);
+    margin-right: 0.5vw;
+}
+
+/**/
 
 @media screen and (max-width: 576px) {
     #header-reserve-button {
